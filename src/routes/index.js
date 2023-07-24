@@ -10,6 +10,7 @@ const RoutesPath = () => {
     <Routes>
          <Route path='/' element={<Dashboard/>} />
          <Route path='/add-product' element={<AddProduct/>} />
+         <Route path='/edit-product/:id' element={<AddProduct/>}/>
     </Routes>
     </BrowserRouter>
     </>
